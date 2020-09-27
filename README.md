@@ -1,6 +1,7 @@
 # HomeAssistant_Denon_RS232
 
 This implementation was based off of the following:
+
 https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/media_player/denon.py
 https://github.com/joopert/nad_receiver/blob/master/nad_receiver/__init__.py 
 
