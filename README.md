@@ -16,7 +16,9 @@ The serial_port device below should be changed to match what is being used in yo
 
 3) Add configuration.yaml details:
 
+```
 media_player:
   - platform: denon232
     serial_port: /dev/ttyUSB0
     name: Receiver
+```
