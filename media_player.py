@@ -44,7 +44,7 @@ NORMAL_INPUTS = {'CD': 'CD', 'DVD': 'DVD', 'TV': 'TV/CBL','HDP': 'HDP', 'Video A
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
     """Set up the Denon232 platform."""
-    from denon232_receiver import Denon232Receiver
+    from .denon232_receiver import Denon232Receiver
     add_devices([Denon(
         config.get(CONF_NAME),
         Denon232Receiver(config.get(CONF_SERIAL_PORT))
