@@ -9,7 +9,7 @@ Setup:
 1) Place media_player.py under Home Assistant Config folder under the following directory path:
 /custom_components/denon232/
 
-2) Place __init__.py under Home Assistant Config folder under the following directory path:
+2) Place ``__init__.py`` under Home Assistant Config folder under the following directory path:
 /deps/lib/python3.8/site-packages/denon232_receiver
 
 When the minimum version of python increases the folder "python3.8" needs to be changed to that updated version.
