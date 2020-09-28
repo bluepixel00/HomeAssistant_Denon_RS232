@@ -1,18 +1,15 @@
 # HomeAssistant_Denon_RS232
 
-This implementation was based off of the following:
+This is a Denon AVR / Receiver Custom Component for Home Assistant.  This custom component should support any Denon receiver with a serial port.  This implementation was based off of the following:
 
 https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/media_player/denon.py
 https://github.com/joopert/nad_receiver/blob/master/nad_receiver/__init__.py 
 
 Setup:
-1) Place media_player.py under Home Assistant Config folder under the following directory path:
-/custom_components/denon232/
+1) If not present create the custom component folder structure under your Home Assistant config directory.
+example: config/custom_components/denon232/
 
-2) Place ``__init__.py`` under Home Assistant Config folder under the following directory path:
-/deps/lib/python3.8/site-packages/denon232_receiver
-
-When the minimum version of python increases the folder "python3.8" needs to be changed to that updated version.
+2) Place ``__init__.py``, media_player.py and denon232_receiver.py in the denon232 folder under custom components folder.
 
 3) Add configuration.yaml details:
 
