@@ -7,11 +7,11 @@ https://github.com/joopert/nad_receiver/blob/master/nad_receiver/__init__.py
 
 Setup:
 1) If not present create the custom component folder structure under your Home Assistant config directory.
-example: config/custom_components/denon232/
+config/custom_components/denon232/
 
 2) Place ``__init__.py``, media_player.py and denon232_receiver.py in the denon232 folder under custom components folder.
 
-3) Add configuration.yaml details:
+3) Add configuration details to configuration.yaml located in the config directory:
 
 ```
 media_player:
